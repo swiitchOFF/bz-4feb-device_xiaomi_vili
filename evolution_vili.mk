@@ -18,7 +18,6 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1440
 
 # Rom additions
-TARGET_USES_MINI_GAPPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_BRAND := Xiaomi
@@ -26,7 +25,6 @@ PRODUCT_DEVICE := vili
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 2107113SG
 PRODUCT_NAME := evolution_vili
-
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="vili-user 12 RKQ1.211001.001 V13.0.21.0.SKDEUXM release-keys"
